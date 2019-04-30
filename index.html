@@ -1,17 +1,54 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="">
-  <title>JQuery EX1P3</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <title>JQuery E1P4</title>
 </head>
 <body>
-  <h1>le bon click</h1>
-  <p id="nombre">0</p>
-  <button type="button" name="button" id="clickMe">clicliclicliclick</button>
- <script src="jquery-3.3.1.min.js"></script>
- <script src="main.js"></script>
+  <div class= container>
+    <div class="bg-danger text-center">
+      <h1> P F C </h1>
+      <select name="" id="CHIEFOUMI">
+        <option value="ciseaux">Ciseaux</option>
+        <option value="pierre">Pierre</option>
+        <option value="feuille">Feuille</option>
+      </select>
+    </div>
+    <button id="ALATAKDELARNG"> lançons une partie géniale d'un jeu super cool avec un bouton vraiment trop long et trop gros au fur et à mesure que je le remplis de choses inutiles </button>
+    <div id="result"> </div>
+    <div class="flex-column">
+      <div>Ordi : <span id='comp'> </span></div>
+      <div>Vous :  <span id='hum'> </span></div>
+    </div>
+  </div>
+  <script src="jquery-3.3.1.min.js"></script>
+  <script src="main.js"></script>
 </body>
+</html> -->
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Exercice 1 Shifumi</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <span class="left">Player: 0</span>
+            <span class="right">Computer: 0</span>
+            <select id="player">
+                <option value="Pierre">Pierre</option>
+                <option value="Feuille">Feuille</option>
+                <option value="Ciseaux">Ciseaux</option>
+            </select>
+            <button id="compare"></button>
+        </div>
+        <div id="result"><p></p></div>
+        <div id="ratio"><p></p></div>
+        <script src="assets\jquery-3.3.1.min.js"></script>
+        <script src="assets/main.js"></script>
+    </body>
 </html>
